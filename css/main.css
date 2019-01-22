@@ -55,11 +55,37 @@ background-color: transparent;
 {
 margin-top: 2%;
     color: #808183;
-    margin-left: 22%;
+    margin-left: 31%;
     float: right;
     
 
 
+}
+
+i.fa-briefcase
+{
+    font-size: 43px;
+    color: white;
+    margin-top: 1%;
+}
+
+i.fa.fa-clock-o {
+      font-size: 43px;
+    color: white;
+    margin-top: 1%;
+}
+
+i.fa.fa-star-o {
+
+          font-size: 43px;
+    color: white;
+    margin-top: 1%;
+}
+
+i.fa.fa-heart-o {
+        font-size: 43px;
+    color: white;
+    margin-top: 1%;
 }
 
 #welcome_title
@@ -76,16 +102,27 @@ margin-top: 2%;
     padding-bottom: 3%;
     background-color: #10c9c3;
     color: #fefffb;
-    margin-left: 22%;
+    margin-left: 31%;
     margin-top: 2%;
         
 
+}
+
+#tasks_comp > h6:nth-child(2)
+{
+    line-height: 1px;
 }
 
 #about_us
 {
     color: #191919;
 
+}
+
+#skills_rest
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #about_us_div
@@ -113,6 +150,13 @@ margin-top: 2%;
     margin-top: 4%;
     color:white;
 }
+
+#tasks_comp
+
+   {
+    color: white;
+    margin-top: -8px;
+   }
 
 #skills_section
 {
