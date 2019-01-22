@@ -19,7 +19,7 @@
 	<title></title>
 	</head>
 	<body>
-	<section style="background-image: url('./img/section1.jpeg'); width:100%;height:800px">
+	<section style="background-image: url('./img/section1.jpeg'); width:100%;height:800px" class="scrollify">
 	<header>
 	<div class="container">
 		<div class="row">
@@ -31,10 +31,10 @@
 	<div class="container-fluid">
 	<ul class="nav navbar-nav ">
 	<li class="active"><a href="#">HOME</a></li>
-	<li><a href="#">ABOUT</a></li>
-	<li><a href="#">WORK</a></li>
-	<li><a href="#">PROCESS</a></li>
-	<li><a href="#">SERVICES</a></li>
+	<li><a href="#about_us_section">ABOUT</a></li>
+	<li><a href="#work_section">WORK</a></li>
+	<li><a href="#process">PROCESS</a></li>
+	<li><a href="#services">SERVICES</a></li>
 	<li><a href="#">TESTIMIONIAL</a></li>
 	<li><a href="#">CONTACT</a></li>
 	</ul>
@@ -57,7 +57,7 @@
 	</div>
 	</section>
 
-	<section style="background-color: white">
+	<section id="about_us_section" style="background-color: white" class="scrollify">
 	<div class="container">
 		<div id="about_us_div"  class="row">
 			<div class="col-lg-6 col-lg-offset-5">
@@ -73,7 +73,7 @@
 
 	</section>
 
-	<section  id="skills_section">
+	<section  id="work_section" class="scrollify">
 	<div class="test">
 			<div class="container">
 	<div id="skills_div" class="row">
@@ -106,7 +106,7 @@
 
 
 
-	<section style="background-color:#10c9c3">
+	<section id="process" style="background-color:#10c9c3" class="scrollify">
 	<div class="container">
 		<div class="row" id="skills_rest" style="height:150;width:100%">
 			<div class="col-lg-3">
@@ -161,7 +161,7 @@
 	</section>
 
 
-	<section id="gallery">
+	<section id="services" class="scrollify">
 		<div class="row">
 			
 				<div class="col-lg-3">
@@ -185,18 +185,18 @@
 			<div class="row">
 
 				<div class="col-lg-3">
-				<img class="img-responsive" src="./img/skills1.jpeg">
+				<img class="img-responsive" src="./img/skills.jpeg">
 			</div>
 
 			<div class="col-lg-3">
-				<img class="img-responsive" src="./img/skills1.jpeg">
+				<img class="img-responsive" src="./img/pexels-photo-908284.jpeg">
 			</div>
 
 			<div class="col-lg-3">
-				<img class="img-responsive" src="./img/skills1.jpeg">
+				<img class="img-responsive" src="./img/skills.jpeg">
 			</div>
 			<div class="col-lg-3">
-				<img class="img-responsive" src="./img/skills1.jpeg">
+				<img class="img-responsive" src="./img/pexels-photo-908284.jpeg">
 			</div>
 			
 		
@@ -207,5 +207,34 @@
 	</section>
 
 
+		<section id="about_us_section" style="background-color: white" class="scrollify">
+	<div class="container">
+		<div id="about_us_div"  class="row">
+			<div class="col-lg-6 col-lg-offset-4">
+				<h1 id="about_us">Our Work Process</h1>
+			</div>
+			<div class="col-lg-8 col-lg-offset-2">
+									<p id="about_us_desc" >Was years it seasons was there form he in in them together over that, 
+third sixth gathered female creeping bearing behold years.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			
+		</div>
+	</div>
+
+	</section>
+
+
 	</body>
+
+
+	    <script>
+        $(function() {
+          $.scrollify({
+            section : ".scrollify",
+          });
+        });
+      </script>
 	</html>

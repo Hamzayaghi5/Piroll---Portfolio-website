@@ -68,7 +68,13 @@ i.fa-briefcase
     color: white;
     margin-top: 1%;
 }
-
+#about_us_desc
+{
+    text-align: center;
+    font-size: 13pt;
+    color: #787878;
+    font-family: 'Montserrat', sans-serif;
+}
 i.fa.fa-clock-o {
       font-size: 43px;
     color: white;
@@ -131,12 +137,7 @@ i.fa.fa-heart-o {
     margin-bottom:8%;
 }
 
-#about_us_desc
-{
-    font-size: 13pt;
-    color: #787878;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 #skills_div
 {
@@ -158,13 +159,9 @@ i.fa.fa-heart-o {
     margin-top: -8px;
    }
 
-   #gallery
-   {
-    height: 600px;
-    width: 100%;
-   }
 
-#skills_section
+
+#work_section
 {
 background-image: url('../img/skills2.jpeg'); 
 background-attachment: fixed;
