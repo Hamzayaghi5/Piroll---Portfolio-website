@@ -158,12 +158,23 @@ i.fa.fa-heart-o {
     margin-top: -8px;
    }
 
+   #gallery
+   {
+    height: 600px;
+    width: 100%;
+   }
+
 #skills_section
 {
 background-image: url('../img/skills2.jpeg'); 
 background-attachment: fixed;
 width:100%;
 height:100%;
+}
+
+.col-lg-3
+{
+    padding: 0px;
 }
 
 .test{
