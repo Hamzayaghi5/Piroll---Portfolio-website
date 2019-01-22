@@ -1,0 +1,101 @@
+div#img_container {
+    margin-top: 37px;
+}
+
+ul.nav.navbar-nav {
+    float: left;
+}
+
+nav.navbar.navbar-default {
+    margin-top: 37px;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+
+    color: #191a1c;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+    color: #0ec8c3;
+    
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: #0ec8c3;
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+color: #0ec8c3;
+background-color: transparent;
+}
+
+
+#main_header {
+    color: #1e1c1d;
+
+    float: right;
+
+}
+
+#sub_header
+{
+margin-top: 2%;
+    color: #808183;
+    margin-left: 22%;
+    float: right;
+    
+
+
+}
+
+#welcome_title
+{
+    margin-top: 10%;
+
+}
+
+#contact_button
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #10c9c3;
+    color: #fefffb;
+    margin-left: 22%;
+    margin-top: 2%;
+        
+
+}
+
+#about_us
+{
+    color: #191919;
+
+}
+
+#about_us_div
+{
+    margin-top: 8%;
+    margin-bottom:8%;
+}
+
+#about_us_desc
+{
+    font-size: 13pt;
+    color: #787878;
+    font-family: 'Montserrat', sans-serif;
+}
+body
+{
+          font-family: 'Montserrat', sans-serif;
+}
+
