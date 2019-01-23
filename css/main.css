@@ -69,6 +69,77 @@ i.fa-briefcase
     color: white;
     margin-top: 1%;
 }
+
+.flexslider {
+    background-color: transparent;
+    }
+i.fa-diamond
+{
+      font-size: 43px;
+    color: #666666;
+    margin-top: 1%;
+    margin-left: 41%;
+}
+
+i.fa-gamepad
+
+{
+      font-size: 43px;
+    color: #666666;
+    margin-top: 1%;
+    margin-left: 41%;
+}
+i.fa-mobile
+
+{
+      font-size: 43px;
+    color: #666666;
+    margin-top: 1%;
+    margin-left: 44%;
+}
+#services_row
+{
+    margin-bottom: 4%;
+}
+
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    margin-right: 7%;
+}
+
+.owl-dots {
+    margin-right: 7%;
+}
+
+section#qoutes {
+    background-color: #10c9c3;
+}
+
+#qoute
+{
+    text-align: center;
+    font-size: 13pt;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#quote_owner
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+#work_process
+{
+    margin-bottom: 4%;
+}
+
+
+
+
 #about_us_desc
 {
     text-align: center;
@@ -160,6 +231,13 @@ i.fa.fa-heart-o {
     margin-top: -8px;
    }
 
+
+
+#services
+{
+background-color: #f5f5f5;
+height: 400px;
+}
 
 
 #work_section
