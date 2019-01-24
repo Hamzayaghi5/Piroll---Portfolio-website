@@ -10,6 +10,10 @@ $(document).ready(function(){
     			autoplayTimeout:2000,
               
             });
+
 });
+
+
+
 
 
